@@ -113,8 +113,6 @@ Este projeto está sob a licença MIT - veja o arquivo [LICENSE](./LICENSE) para
 
 - [Python Documentation](https://docs.python.org/)
 - [Real Python](https://realpython.com/)
-- Comunidade Python no Discord
-- Stack Overflow
 
 ---
 
