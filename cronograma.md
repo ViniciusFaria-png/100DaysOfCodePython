@@ -1,166 +1,157 @@
-# Projetos de Final de Módulo - 100 Dias de Python
+# Cronograma de 100 Dias de Python
 
-## 1. Estruturas de Controle (Dia 14)
-### Projeto: Jogo de Adivinhação Numérica
-- Gere um número aleatório entre 1 e 100
-- Peça ao usuário para adivinhar o número
-- Forneça dicas ("maior" ou "menor")
-- Limite o número de tentativas
-- Mantenha uma pontuação baseada em tentativas usadas
-- Permita múltiplas rodadas
-- Use todos os tipos de estruturas de controle aprendidas
+## Semana 1-2: Fundamentos Básicos
+### Dias 1-5: Introdução
+- Dia 1: Instalação Python, primeiro "Hello World", números e operações básicas
+- Dia 2: Strings e formatação básica
+- Dia 3: Variáveis e tipos de dados
+- Dia 4: Input/Output e conversão de tipos
+- Dia 5: Operadores (aritméticos, comparação, lógicos)
 
-## 2. Estruturas de Dados (Dia 28)
-### Projeto: Sistema de Gerenciamento de Biblioteca
-- Cadastro de livros (título, autor, ano, gênero)
-- Cadastro de usuários
-- Sistema de empréstimo/devolução
-- Busca por diferentes critérios
-- Relatórios de livros emprestados
-- Histórico de empréstimos por usuário
-- Use dicionários para armazenar dados
-- Implemente busca em listas e ordenação
+### Dias 6-14: Estruturas de Controle
+- Dia 6: if, elif, else
+- Dia 7: Loops while
+- Dia 8: Loops for e range()
+- Dia 9: break e continue
+- Dia 10: Nested loops
+- Dia 11: match-case (Python 3.10+)
+- Dia 12: List comprehension básica
+- Dia 13: Operador ternário
+- Dia 14: Mini-projeto combinando estruturas de controle
 
-## 3. Funções e Modularização (Dia 42)
-### Projeto: Analisador de Texto Avançado
-- Análise de frequência de palavras
-- Contagem de caracteres, palavras e frases
-- Identificação de palíndromos
-- Estatísticas do texto (palavras mais comuns, comprimento médio)
-- Sugestão de correções simples
-- Módulos separados para cada funcionalidade
-- Interface via linha de comando com menu
-- Funções com diferentes tipos de argumentos
+## Semana 3-4: Estruturas de Dados
+### Dias 15-21: Listas e Tuplas
+- Dia 15: Criação e acesso a listas
+- Dia 16: Métodos de lista (append, insert, remove)
+- Dia 17: Slicing
+- Dia 18: Tuplas e suas operações
+- Dia 19: Listas aninhadas
+- Dia 20: Ordenação e busca em listas
+- Dia 21: Mini-projeto com listas e tuplas
 
-## 4. OOP Básica (Dia 49)
-### Projeto: Jogo RPG Simples
-- Classes para personagens, itens e inimigos
-- Sistema de combate por turnos
-- Inventário de itens
-- Sistema de experiência e levelup
-- Diferentes tipos de personagens (herança)
-- Status effects (polimorfismo)
-- Interface de texto interativa
-- Save/load do estado do jogo
+### Dias 22-28: Dicionários e Sets
+- Dia 22: Dicionários básicos
+- Dia 23: Métodos de dicionário
+- Dia 24: Sets e operações
+- Dia 25: Dicionários aninhados
+- Dia 26: List/Dict comprehension avançada
+- Dia 27: Frozen sets
+- Dia 28: Mini-projeto com dicionários e sets
 
-## 5. OOP Avançada (Dia 56)
-### Projeto: Sistema de E-commerce
-- Classes para produtos, usuários, pedidos
-- Carrinho de compras
-- Sistema de desconto
-- Histórico de compras
-- Diferentes métodos de pagamento
-- Sistema de avaliação de produtos
-- Estoque automático
-- Interfaces e classes abstratas
-- Decorators para logging
+## Semana 5-6: Funções e Modularização
+### Dias 29-35: Funções Básicas
+- Dia 29: Definição e chamada de funções
+- Dia 30: Parâmetros e argumentos
+- Dia 31: Return e múltiplos retornos
+- Dia 32: Args e Kwargs
+- Dia 33: Funções lambda
+- Dia 34: Escopo de variáveis
+- Dia 35: Mini-projeto com funções
 
-## 6. Arquivos e Exceções (Dia 63)
-### Projeto: Gerenciador de Finanças Pessoais
-- Registro de receitas e despesas
-- Categorização automática
-- Importação de extratos CSV
-- Exportação de relatórios
-- Gráficos de gastos mensais
-- Backup automático
-- Tratamento de erros robusto
-- Validação de dados
-- Logs de operações
+### Dias 36-42: Modularização
+- Dia 36: Módulos built-in
+- Dia 37: Criando módulos
+- Dia 38: Packages
+- Dia 39: Import e from import
+- Dia 40: __name__ e __main__
+- Dia 41: pip e bibliotecas externas
+- Dia 42: Mini-projeto com módulos
 
-## 7. Manipulação de Dados (Dia 70)
-### Projeto: Análise de Dados Meteorológicos
-- Download de dados climáticos
-- Processamento de séries temporais
-- Análise estatística
-- Visualização com gráficos
-- Previsões simples
-- Exportação de relatórios
-- Uso de pandas e numpy
-- Regular expressions para limpeza
-- Logging de operações
+## Semana 7-8: Programação Orientada a Objetos
+### Dias 43-49: OOP Básica
+- Dia 43: Classes e objetos
+- Dia 44: Métodos e atributos
+- Dia 45: Construtores
+- Dia 46: Herança
+- Dia 47: Encapsulamento
+- Dia 48: Polimorfismo
+- Dia 49: Mini-projeto OOP
 
-## 8. Programação Funcional (Dia 77)
-### Projeto: Pipeline de Processamento de Imagens
-- Carregamento de imagens
-- Filtros e transformações
-- Processamento em lote
-- Sistema de plugins
-- Histórico de operações
-- Preview de alterações
-- Uso de map/filter/reduce
-- Decorators para cache
-- Generators para memória eficiente
+### Dias 50-56: OOP Avançada
+- Dia 50: Métodos estáticos e de classe
+- Dia 51: Property decorators
+- Dia 52: Magic methods
+- Dia 53: Abstract classes
+- Dia 54: Interfaces
+- Dia 55: Multiple inheritance
+- Dia 56: Mini-projeto OOP avançado
 
-## 9. Concorrência (Dia 84)
-### Projeto: Web Crawler Multithreaded
-- Coleta de dados de múltiplos sites
-- Processamento paralelo
-- Queue de URLs
-- Limite de requisições
-- Salvamento em banco de dados
-- Progress tracking
-- Tratamento de erros
-- Rate limiting
-- Resultados em tempo real
+## Semana 9-10: Tratamento de Dados
+### Dias 57-63: Arquivos e Exceções
+- Dia 57: Leitura de arquivos
+- Dia 58: Escrita em arquivos
+- Dia 59: Try/Except básico
+- Dia 60: Exceções personalizadas
+- Dia 61: Context managers (with)
+- Dia 62: JSON e CSV
+- Dia 63: Mini-projeto manipulação de arquivos
 
-## 10. Web e Database (Dia 91)
-### Projeto: Sistema de Blog
-- Interface web com Flask
-- Autenticação de usuários
-- CRUD de posts
-- Sistema de comentários
-- Tags e categorias
-- Upload de imagens
-- API REST
-- Database SQLite
-- Templates responsivos
+### Dias 64-70: Manipulação de Dados
+- Dia 64: Regular expressions
+- Dia 65: Data e hora
+- Dia 66: Decimal e math
+- Dia 67: Collections module
+- Dia 68: itertools
+- Dia 69: Logging
+- Dia 70: Mini-projeto análise de dados
 
-## 11. Tópicos Especializados (Dia 98)
-### Projeto: Sistema de Monitoramento de Aplicação
-- Coleta de métricas
-- Dashboard web
-- Alertas automáticos
-- Logs centralizados
-- Testes unitários
-- Type checking
-- Containerização
-- CI/CD básico
-- Documentação completa
+## Semana 11-12: Tópicos Avançados
+### Dias 71-77: Programação Funcional
+- Dia 71: map e filter
+- Dia 72: reduce
+- Dia 73: Decorators básicos
+- Dia 74: Decorators com argumentos
+- Dia 75: Generators
+- Dia 76: iteradores
+- Dia 77: Mini-projeto programação funcional
 
-## 12. Projeto Final (Dia 100)
-### Sugestões de Projetos Finais:
-1. **Rede Social para Desenvolvedores**
-   - Posts com syntax highlighting
-   - Sistema de seguidores
-   - Compartilhamento de código
-   - Comentários e reviews
-   - API completa
+### Dias 78-84: Concorrência
+- Dia 78: Threading básico
+- Dia 79: Multiprocessing
+- Dia 80: async/await básico
+- Dia 81: asyncio
+- Dia 82: Concurrent futures
+- Dia 83: Queues
+- Dia 84: Mini-projeto concorrência
 
-2. **Plataforma de Cursos Online**
-   - Sistema de aulas em vídeo
-   - Quizzes e exercícios
-   - Progresso do aluno
-   - Fórum de discussão
-   - Certificados automáticos
+## Semana 13-14: Projetos Práticos
+### Dias 85-91: Web e Database
+- Dia 85: SQLite básico
+- Dia 86: HTTP requests
+- Dia 87: APIs REST
+- Dia 88: Web scraping básico
+- Dia 89: Flask introdução
+- Dia 90: Templates Flask
+- Dia 91: Mini-projeto web
 
-3. **Sistema de Automação Residencial**
-   - Interface web/mobile
-   - Integração com APIs de IoT
-   - Automações programáveis
-   - Monitoramento em tempo real
-   - Alertas e notificações
+### Dias 92-98: Tópicos Especializados
+- Dia 92: Type hints
+- Dia 93: Unit testing
+- Dia 94: Debugging
+- Dia 95: Profiling
+- Dia 96: Virtual environments
+- Dia 97: Packaging
+- Dia 98: Docker básico
 
-## Notas de Implementação:
-1. Cada projeto deve incluir:
-   - README detalhado
-   - Documentação do código
-   - Testes (quando aplicável)
-   - Requisitos de instalação
-   - Exemplos de uso
+### Dias 99-100: Projeto Final
+- Dia 99: Planejamento e início do projeto final
+- Dia 100: Finalização e apresentação do projeto final
 
-2. Práticas recomendadas:
-   - Use Git para versionamento
-   - Implemente gradualmente
-   - Faça commits frequentes
-   - Documente decisões de design
-   - Inclua tratamento de erros
+## Notas Importantes:
+1. Cada dia deve incluir:
+   - Teoria do conceito
+   - Exemplos práticos
+   - Exercícios para fixação
+   - Um mini-projeto ou desafio
+
+2. Recomendações:
+   - Dedique pelo menos 1 hora por dia
+   - Pratique os conceitos anteriores
+   - Mantenha um repositório Git com seu progresso
+   - Documente suas dúvidas e aprendizados
+
+3. Recursos adicionais:
+   - Python Documentation
+   - Real Python
+   - Python Discord communities
+   - Stack Overflow
