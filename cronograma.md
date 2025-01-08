@@ -138,20 +138,9 @@
 - Dia 100: Finalização e apresentação do projeto final
 
 ## Notas Importantes:
-1. Cada dia deve incluir:
+### Cada dia deve incluir:
    - Teoria do conceito
    - Exemplos práticos
    - Exercícios para fixação
    - Um mini-projeto ou desafio
 
-2. Recomendações:
-   - Dedique pelo menos 1 hora por dia
-   - Pratique os conceitos anteriores
-   - Mantenha um repositório Git com seu progresso
-   - Documente suas dúvidas e aprendizados
-
-3. Recursos adicionais:
-   - Python Documentation
-   - Real Python
-   - Python Discord communities
-   - Stack Overflow
